@@ -1,0 +1,5 @@
+int returnArrayPointer(int a[],int length){    
+   int *c=malloc(sizeof(int)*length);//如果这里是malloc(sizeof(length))的话，只会返回length类型的长度，并非期待的数组长度    
+       
+  return c;    
+};  
